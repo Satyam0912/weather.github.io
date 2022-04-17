@@ -17,22 +17,15 @@ body {
 }
 
 .all {
-    margin-top: 40vh;
-    border: 1px solid red;
+    margin-top: 5vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.animateImg {
-    height: var(--h);
-    width: var(--w);
-    position: absolute;
-    border: 1px solid red;
-    z-index: 0;
-    background-image: url("https://i.ibb.co/7zGJh4V/dayNight.gif");
-    background-repeat: no-repeat;
-    background-size: cover;
+.heading{
+    padding: 10px;
 }
 
 /* https://i.ibb.co/7zGJh4V/dayNight.gif */
@@ -41,14 +34,17 @@ body {
 .container {
     height: var(--h);
     width: var(--w);
-    position: absolute;
-    z-index: 10;
     border: 1px solid black;
-    padding: 20px 15px;
-    row-gap: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    background-image: url();
+    background-image: url("https://i.ibb.co/7zGJh4V/dayNight.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+input,button{
+    border: 2px solid black;
+    border-radius: 2px;
 }
